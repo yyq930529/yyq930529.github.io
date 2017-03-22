@@ -7,8 +7,17 @@
 
 <body>
   <h1>这个是我自己的博客哦</h1>
-  <button>第一个按钮，点我呀！</button>
-  <a href='one.html'>第一个超链接</a>
+  <p id="one">第一句话</p>
+  <p id="two">第二句话</p>
+  <button type="butoon" onclick="myFunction()">第一个按钮，点我呀！</button>
+ <p> <a href='one.html'>第一个超链接</a></p>
+  <script>
+    function myFunction()
+    {
+      documnet.getElementById("one").innerHTML="hello1";
+      documnet.getElementById("two").innerHTML="hello3";
+    }
+  </script>
 </body>
 
 </html>
